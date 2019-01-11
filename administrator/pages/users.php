@@ -40,13 +40,14 @@
                     while ($rr = $r->fetch_array()) {
                         $id_user = $rr['id'];
                         $fullname = $rr['fullname'];
+                        $data = $rr['photo'];
                 ?>
                 <tr>
                     <th>-</th>
                     <td><?php echo $fullname;?></td>
                     <th><?php echo $rr['email'];?></th>
                     <td><?php echo $rr['password'];?></td>
-                    <td></td>
+                    <td><img src='assets/images/<?php echo $rr['photo'];?>' width='100px' height='100px' /></td>
                     <td><?php echo $rr['otorisasi'];?></td>
                     <td>
                         <a href="index.php?pages=edit-users&id=<?php echo $rr['id'];?>" title="" class="brd-rd5 btn scl-btn2 twitter-clr"><i class="fa fa-pencil"></i></a>
@@ -73,7 +74,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="modal-body">
-                <form class="form-wrp" action="controller/act-add-users.php" method="POST">
+                <form class="form-wrp" action="controller/act-add-users.php" method="POST" enctype="multipart/form-data">
                     <div class="row mrg20">
 
                         <div class="col-md-12 col-sm-12 col-lg-12">
@@ -135,7 +136,7 @@
 
             // gimana cara lempar variabel ke id
 
-                $id = 2;
+                $id = 4;
 
             // gimana cara lempar variabel ke id
 
@@ -151,7 +152,7 @@
                         <div class="profile-info-wrp edit-prf">
                                 <div class="insta-wrp">
                                     <span>
-                                        <img id="rslt-img" class="brd-rd50" src="assets/images/resource/insta-dp.jpg" alt="" />
+                                        <img id="rslt-img" class="brd-rd50" src='assets/images/<?php echo $rr['photo'];?>' width='100px' height='100px' alt="" />
                                         <span class="sts online"></span>
                                         <label class="fileContainer brd-rd50"><i class="fa fa-camera"></i>
                                         <input id="upld-file" type="file" name="photo" /></label>

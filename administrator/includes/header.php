@@ -177,7 +177,8 @@
       <input type="text" placeholder="Type and Hit Enter" />
     </form>
     <div class="usr-act">
-      <span><img src="assets/images/resource/topbar-usr1.jpg" alt="" /><i class="sts away"></i></span>
+      <span><img src='assets/images/<?php echo $_SESSION['photo']; ?>' width='50px' height='50px' /><i class="sts away"></i></span>
+      <!-- <img src="assets/images/resource/topbar-usr1.jpg" alt="" /> -->
       <div class="usr-inf">
         <div class="usr-thmb brd-rd50">
           <img class="brd-rd50" src="assets/images/resource/usr.jpg" alt="" />
