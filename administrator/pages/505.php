@@ -361,7 +361,7 @@
             <h2 class="blue-clr">505 <span>Error</span></h2>
             <h4>Internal Server Error <span class="green-clr">;(</span></h4>
             <p>Looks like Something went wrong. We apologize. You can go back to main page.</p>
-            <a class="blue-bg brd-rd5" href="#" title="">Return To Home</a>
+            <a class="blue-bg brd-rd5" href="login.php" title="">Return To Home</a>
         </div>
         <footer>
           <p>Copyright <a href="#" title="">Example Company</a> &amp; 2017 - 2018</p>
