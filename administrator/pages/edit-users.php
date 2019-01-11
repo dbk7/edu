@@ -23,14 +23,15 @@
 		<!-- <div class="widget-title2">
             <h4>Hoverable Table</h4>
         </div> -->
-        <form class="form-wrp" action="controller/act-edit-users.php?id=<?php echo $id; ?>" method="POST">
+        <form class="form-wrp" action="controller/act-edit-users.php?id=<?php echo $id; ?>" method="POST" enctype="multipart/form-data">
         	<div class="row">
         	<div class="col-md-3 col-sm-12 col-lg-3">
 	        	<div class="col-md-12 col-sm-12 col-lg-12">
 	                <div class="profile-info-wrp edit-prf">
 	                        <div class="insta-wrp">
 	                            <span>
-	                            	<img id="rslt-img" class="brd-rd50" src="assets/images/resource/insta-dp.jpg" alt="" />
+									<img id="rslt-img" class="brd-rd50" src='assets/images/<?php echo $rr['photo'];?>' width='100px' height='100px' alt="" />
+	                            	<!-- <img id="rslt-img" class="brd-rd50" src="assets/images/resource/insta-dp.jpg" alt="" /> -->
 	                            	<span class="sts online"></span>
 	                            	<label class="fileContainer brd-rd50"><i class="fa fa-camera"></i>
 	                            	<input id="upld-file" type="file" name="photo" /></label>

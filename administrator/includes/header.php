@@ -181,7 +181,7 @@
       <!-- <img src="assets/images/resource/topbar-usr1.jpg" alt="" /> -->
       <div class="usr-inf">
         <div class="usr-thmb brd-rd50">
-          <img class="brd-rd50" src="assets/images/resource/usr.jpg" alt="" />
+          <img class="brd-rd50" src='assets/images/<?php echo $_SESSION['photo']; ?>' width='50px' height='50px' alt="" />
           <i class="sts away"></i>
           <a class="green-bg brd-rd5" href="#" title=""><i class="fa fa-envelope"></i></a>
         </div>
