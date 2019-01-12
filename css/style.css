@@ -5472,7 +5472,7 @@ h6,
     .h a:hover,
     .h a:focus,
     .h a:active {
-      color: #ffc000; }
+      color: #005066; }
 
 p {
   margin: 0 0 26px; }
@@ -5549,6 +5549,14 @@ p {
     color: #222222;
     background-color: #d9d9d9;
     border-color: #d9d9d9; }
+    .btn-new {
+  background-color: #fff;
+  color: #222222;
+  border-color: #fff; }
+  .btn-white:hover {
+    color: #222222;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9; }
 
 .btn-dark {
   background-color: #222222;
@@ -5561,8 +5569,8 @@ p {
 
 .btn-default:hover, .btn-default:focus, .btn-default:active {
   color: #fff;
-  background-color: #ffc000;
-  border-color: #ffc000; }
+  background-color: #005066;
+  border-color: #005066; }
 
 .dropdown-menu {
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.18);
@@ -5626,7 +5634,7 @@ p {
   .star-rating > li {
     margin-left: 1px;
     margin-right: 1px;
-    color: #ffc000;
+    color: #005066;
     font-size: 11px;
     line-height: 1; }
   form .star-rating {
@@ -5634,7 +5642,7 @@ p {
     form .star-rating > li {
       color: #ccc; }
     form .star-rating .customFormReset:checked + label {
-      color: #ffc000; }
+      color: #005066; }
   .product-module .star-rating {
     margin-bottom: 10px; }
   .widget .star-rating {
@@ -6897,7 +6905,7 @@ p {
       font-size: 14px;
       color: #999; }
       .top-bar .socail-networks > li > a:hover {
-        color: #ffc000; }
+        color: #005066; }
 
 /* page footer styles */
 #page-footer {
@@ -7365,7 +7373,7 @@ p {
   width: calc(100% - 100px); }
 
 .reviesSubmissionForm .required {
-  color: #ffc000; }
+  color: #005066; }
 
 .reviesSubmissionForm textarea, .reviesSubmissionForm textarea.form-control {
   resize: none;
@@ -7449,7 +7457,7 @@ p {
       padding: 4px 8px;
       text-align: center; }
       .tag-clouds > li > a:hover {
-        background-color: #ffc000;
+        background-color: #005066;
         border-color: transparent; }
 
 /* visualImageHolder styles */
@@ -8200,7 +8208,7 @@ p {
     .profile-info dl a {
       color: inherit; }
       .profile-info dl a:hover {
-        color: #ffc000; }
+        color: #005066; }
   .profile-info dt {
     float: left;
     margin: 0 5px 0 0;
@@ -8384,7 +8392,7 @@ p {
   .product-description-column .categories-wrap a {
     color: #222222; }
     .product-description-column .categories-wrap a:hover {
-      color: #ffc000; }
+      color: #005066; }
   .product-description-column p {
     margin: 0; }
 
@@ -8558,7 +8566,7 @@ p {
   .strip-note a {
     color: inherit; }
     .strip-note a:hover {
-      color: #ffc000; }
+      color: #005066; }
   .strip-note p {
     margin: 0; }
 
@@ -8737,7 +8745,7 @@ p {
     .learning-cources-list > li > a {
       color: inherit; }
       .learning-cources-list > li > a:hover {
-        color: #ffc000; }
+        color: #005066; }
   .learning-cources-list .icn {
     margin-right: 9px;
     min-width: 16px;
@@ -8805,7 +8813,7 @@ p {
   .guide-column:hover .icn {
     color: #fff; }
     .guide-column:hover .icn:after {
-      background-color: #ffc000;
+      background-color: #005066;
       border-color: rgba(255, 192, 0, 0.3); }
   .guide-column h3, .guide-column .h3 {
     margin: 0 0 13px; }
@@ -8888,7 +8896,7 @@ p {
     .news-column-post time a {
       color: inherit; }
       .news-column-post time a:hover {
-        color: #ffc000; }
+        color: #005066; }
   .news-column-post p {
     margin: 0 0 20px; }
 
@@ -8937,7 +8945,7 @@ p {
   .h-address a {
     color: #222222; }
     .h-address a:hover {
-      color: #ffc000; }
+      color: #005066; }
 
 /* courses column aside styles */
 .courses-column-aside {
@@ -9172,7 +9180,7 @@ p {
   z-index: 9;
   opacity: 0;
   visibility: hidden;
-  background: #ffc000;
+  background: #005066;
   border-radius: 5px;
   -webkit-transition: all 0.6s ease 0s;
   -o-transition: all 0.6s ease 0s;
