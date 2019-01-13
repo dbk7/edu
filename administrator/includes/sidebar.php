@@ -20,7 +20,7 @@
           <li><a href="#" title="">Coming Soon</a></li>
         </ul>
       </li>
-      <li><a href="#" title=""><i class="fa fa-exclamation"></i> Coming Soon</a></li>
+      <li><a href="logout.php" title=""><i class="fa fa-sign-out"></i> Logout</a></li>
     </ul>
   </nav>
 </header>

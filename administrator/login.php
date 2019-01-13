@@ -58,9 +58,9 @@
                   <div class="col-md-12 col-sm-12 col-lg-12">
                       <a href="#" title="" class="frgt">Forget password?</a>
                   </div>
-                  <div class="col-md-12 col-sm-12 col-lg-12">
+                  <!-- <div class="col-md-12 col-sm-12 col-lg-12">
                       <a class="brd-rd5 blue-bg act-btn" href="#" title="">Create An Account</a>
-                  </div>
+                  </div> -->
               </div>
           </form>
       </div>
